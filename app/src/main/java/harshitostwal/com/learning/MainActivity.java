@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
             }
             fileInputStream.close();
             content.setText(msg);
-            Toast.makeText(this, "Data Retrieved!", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Data Retrieve!", Toast.LENGTH_SHORT).show();
         }catch (Exception ex){
             Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
         }
